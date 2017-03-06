@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Borda';
+  font-style: normal;
+  font-weight: 500;
+  src: url( '../fonts/borda-regular-webfont.eot' );
+  src: url( '../fonts/borda-regular-webfont.eot?#iefix' ) format( 'embedded-opentype' ),
+  url( '../fonts/borda-regular-webfont.woff2' ) format( 'woff2' ),
+  url( '../fonts/borda-regular-webfont.woff' ) format( 'woff' ),
+  url( '../fonts/borda-regular-webfont.ttf' ) format( 'truetype' ),
+  url( '../fonts/borda-regular-webfont.svg#borda' ) format( 'svg' );
+}
+
+@font-face {
+  font-family: 'Borda';
+  font-style: normal;
+  font-weight: 600;
+  src: url( '../fonts/borda-demibold_0-webfont.eot' );
+  src: url( '../fonts/borda-demibold_0-webfont.eot?#iefix' ) format('embedded-opentype' ),
+  url( '../fonts/borda-demibold_0-webfont.woff2' ) format('woff2' ),
+  url( '../fonts/borda-demibold_0-webfont.woff' ) format('woff' ),
+  url( '../fonts/borda-demibold_0-webfont.ttf' ) format('truetype' ),
+  url( '../fonts/borda-demibold_0-webfont.svg#borda' ) format( 'svg' );;
+}
+
+@font-face {
+  font-family: 'Borda';
+  font-style: normal;
+  font-weight: 700;
+  src: url( '../fonts/borda-bold-webfont.eot' );
+  src: url( '../fonts/borda-bold-webfont.eot?#iefix' ) format( 'embedded-opentype' ),
+  url( '../fonts/borda-bold-webfont.woff2' ) format( 'woff2' ),
+  url( '../fonts/borda-bold-webfont.woff' ) format( 'woff' ),
+  url( '../fonts/borda-bold-webfont.ttf' ) format( 'truetype' ),
+  url( '../fonts/borda-bold-webfont.svg#borda' ) format( 'svg' );
+}
+
+html {
+	background-color: #000000;
+	background-image: url('../img/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.proximamente {
+	color: #fafafa;
+	font-family: 'Borda';
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 5em;
+
+	height: 40%;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.proximamente img {
+	width: 175px;
+	margin: 0.5em 0;
+}

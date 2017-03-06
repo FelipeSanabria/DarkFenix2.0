@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'BigNoodleTitling';
+    src:url('../fonts/BigNoodleTitling.ttf.woff') format('woff'),
+        url('../fonts/BigNoodleTitling.ttf.svg#BigNoodleTitling') format('svg'),
+        url('../fonts/BigNoodleTitling.ttf.eot'),
+        url('../fonts/BigNoodleTitling.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.proximamente {
+	color: #40496a;
+	font-family: 'BigNoodleTitling';
+	text-transform: uppercase;
+	font-size: 8em;
+
+	height: 40%;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.proximamente img {
+	width: 175px;
+	margin: 0.10em 0;
+}

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: '8BIT-WONDER-Nominal';
+    src:url('../fonts/8BIT-WONDER-Nominal.ttf.woff') format('woff'),
+        url('../fonts/8BIT-WONDER-Nominal.ttf.svg#8BIT-WONDER-Nominal') format('svg'),
+        url('../fonts/8BIT-WONDER-Nominal.ttf.eot'),
+        url('../fonts/8BIT-WONDER-Nominal.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	background-color: #fafafa;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.proximamente {
+	color: #002c6a;
+	font-family: '8BIT-WONDER-Nominal';
+	text-transform: uppercase;
+	font-size: 4em;
+
+	height: 40%;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.proximamente img {
+	width: 175px;
+	margin: 0.5em 0;
+}

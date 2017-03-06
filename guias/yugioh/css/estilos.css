@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'YuGiOh';
+  font-style: normal;
+  font-weight: 500;
+  src: url( '../fonts/yu-gi-oh_matrix_regular_small_caps_2-webfont.eot' );
+  src: url( '../fonts/yu-gi-oh_matrix_regular_small_caps_2-webfont.eot?#iefix' ) format( 'embedded-opentype' ),
+  url( '../fonts/yu-gi-oh_matrix_regular_small_caps_2-webfont.woff2' ) format( 'woff2' ),
+  url( '../fonts/yu-gi-oh_matrix_regular_small_caps_2-webfont.woff' ) format( 'woff' ),
+  url( '../fonts/yu-gi-oh_matrix_regular_small_caps_2-webfont.ttf' ) format( 'truetype' ),
+  url( '../fonts/yu-gi-oh_matrix_regular_small_caps_2-webfont.svg#borda' ) format( 'svg' );
+}
+
+
+
+html {
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.proximamente {
+	color: #fafafa;
+	font-family: 'YuGiOh';
+	text-transform: uppercase;
+	font-size: 8em;
+
+	height: 40%;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.proximamente img {
+	width: 175px;
+	margin: 0.5em 0;
+}
+
+.proximamente span {
+	text-shadow: 3px 3px 10px black;
+}

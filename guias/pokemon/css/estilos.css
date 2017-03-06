@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Pokemon';
+  font-style: normal;
+  font-weight: 500;
+  src: url( '../fonts/pokemon-webfont.eot' );
+  src: url( '../fonts/pokemon-webfont.eot?#iefix' ) format( 'embedded-opentype' ),
+  url( '../fonts/pokemon-webfont.woff2' ) format( 'woff2' ),
+  url( '../fonts/pokemon-webfont.woff' ) format( 'woff' ),
+  url( '../fonts/pokemon-webfont.ttf' ) format( 'truetype' ),
+  url( '../fonts/pokemon-webfont.svg#borda' ) format( 'svg' );
+}
+
+html {
+	background-image: url('../img/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.proximamente {
+	color: #ffcb05;
+	font-family: 'Pokemon';
+	text-transform: uppercase;
+	font-size: 6em;
+
+	height: 40%;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.proximamente img {
+	width: 175px;
+	margin: 0.10em 0;
+}
+
+.proximamente span {
+	text-shadow: 5px 5px #3b5ca7;
+}

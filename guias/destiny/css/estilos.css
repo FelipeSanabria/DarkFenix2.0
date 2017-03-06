@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Futurist-Fixed-width';
+    src:url('../fonts/Futurist-Fixed-width.ttf.woff') format('woff'),
+        url('../fonts/Futurist-Fixed-width.ttf.svg#Futurist-Fixed-width') format('svg'),
+        url('../fonts/Futurist-Fixed-width.ttf.eot'),
+        url('../fonts/Futurist-Fixed-width.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.proximamente {
+	color: #fafafa;
+	font-family: 'Futurist-Fixed-width';
+	text-transform: uppercase;
+	font-size: 4em;
+
+	height: 40%;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.proximamente img {
+	width: 175px;
+	margin: 0.5em 0;
+}
